@@ -13,5 +13,5 @@ install:
 script:
   - pip install coverage
   - coverage run -m unittest discover tests
-  - coverage report
+  - coverage report -m
   - lobster -h
